@@ -1,0 +1,23 @@
+"*":
+  welcome:
+    showOnStartup: false
+  core:
+    disabledPackages: [
+      "metrics"
+      "spell-check"
+      "linter-rubocop"
+      "linter-eslint"
+      "linter"
+      "exception-reporting"
+      "linter-coffeelint"
+    ]
+    projectHome: "/home/dani/projects"
+  editor:
+    invisibles:
+      eol: false
+    showInvisibles: true
+    softWrapAtPreferredLineLength: true
+    preferredLineLength: 100
+    softWrap: true
+  "linter-rubocop": {}
+  linter: {}
