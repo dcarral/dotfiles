@@ -1,0 +1,7 @@
+[color]
+  ui = true
+[user]
+  name = Daniel Carral
+  email = dan@dcarral.org
+[core]
+  editor = atom --wait
