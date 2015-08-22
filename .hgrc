@@ -1,6 +1,7 @@
 [ui]
 username = Daniel Carral <dan@dcarral.org>
 ssh = ssh -C
+editor = "atom --wait"
 
 [extensions]
 shelve=
