@@ -16,8 +16,6 @@
     invisibles:
       eol: false
     showInvisibles: true
-    softWrapAtPreferredLineLength: true
     preferredLineLength: 100
-    softWrap: true
   "linter-rubocop": {}
   linter: {}
