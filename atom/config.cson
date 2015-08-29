@@ -5,9 +5,7 @@
     disabledPackages: [
       "metrics"
       "spell-check"
-      "linter-rubocop"
       "linter-eslint"
-      "linter"
       "exception-reporting"
       "linter-coffeelint"
     ]
