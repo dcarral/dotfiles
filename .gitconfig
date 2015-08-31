@@ -5,3 +5,5 @@
   email = dan@dcarral.org
 [core]
   editor = atom --wait
+[push]
+  default = simple
