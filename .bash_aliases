@@ -17,5 +17,5 @@ brspec(){
 }
 
 hg_prompt(){
-  hg log -r . --template ' (hg {branch}:{bookmarks}) ' 2> /dev/null | sed 's/\:)/)/'
+  hg log -r . --template ' (hg {branch}:{bookmarks})' 2> /dev/null | sed 's/\:)/)/'
 }
