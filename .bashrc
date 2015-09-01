@@ -53,10 +53,13 @@ if [ -n "$force_color_prompt" ]; then
     fi
 fi
 
+. ~/.git-prompt.sh
+export GIT_PS1_SHOWDIRTYSTATE=1
+
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$(hg_prompt)\$ '
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$(hg_prompt)$(__git_ps1) \$ '
 else
-    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\[$(tput setaf 3)\]$(hg_prompt)\[$(tput sgr0)\]\$ '
+    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\[$(tput setaf 3)\]$(hg_prompt)$(__git_ps1)\[$(tput sgr0)\] \$ '
 fi
 unset color_prompt force_color_prompt
 
@@ -111,3 +114,6 @@ if ! shopt -oq posix; then
 fi
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
