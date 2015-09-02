@@ -17,3 +17,8 @@
     preferredLineLength: 100
   "linter-rubocop": {}
   linter: {}
+  whitespace: {}
+  "ruby-test":
+    rspecFileCommand: "bundle exec rspec -tty {relative_path}"
+    rspecSingleCommand: "bundle exec rspec -tty {relative_path}:{line_number}"
+    rspecAllCommand: "bundle exec rspec -tty spec"
