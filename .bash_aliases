@@ -1,3 +1,4 @@
+alias reload='. ~/.bash_profile'
 alias brake='bundle exec rake'
 
 bspec(){
