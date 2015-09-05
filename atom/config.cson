@@ -7,7 +7,6 @@
       "spell-check"
       "linter-eslint"
       "exception-reporting"
-      "linter-coffeelint"
     ]
     projectHome: "/home/dani/projects"
   editor:
