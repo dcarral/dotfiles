@@ -24,4 +24,4 @@
     rspecAllCommand: "bundle exec rspec -tty spec"
   ".coffee.source":
     editor:
-      preferredLineLength: 80
+      preferredLineLength: 100
