@@ -53,8 +53,10 @@ if [ -n "$force_color_prompt" ]; then
     fi
 fi
 
+# https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh
 . ~/.git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=1
+export GIT_PS1_SHOWUPSTREAM="name"
 
 if [ "$color_prompt" = yes ]; then
     PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$(hg_prompt)$(__git_ps1) \$ '
