@@ -18,7 +18,8 @@
     fontSize: 13
   "linter-rubocop": {}
   linter: {}
-  whitespace: {}
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
   "ruby-test":
     rspecFileCommand: "bundle exec rspec -tty {relative_path}"
     rspecSingleCommand: "bundle exec rspec -tty {relative_path}:{line_number}"
