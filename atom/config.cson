@@ -15,6 +15,7 @@
     showInvisibles: true
     showIndentGuide: true
     preferredLineLength: 100
+    fontSize: 13
   "linter-rubocop": {}
   linter: {}
   whitespace: {}
