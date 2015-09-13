@@ -1,5 +1,6 @@
 alias reload='. ~/.bash_profile'
 alias brake='bundle exec rake'
+alias bexec='bundle exec'
 
 bspec(){
   if [ -z "$1" ]; then
