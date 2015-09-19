@@ -17,7 +17,8 @@
     preferredLineLength: 100
     fontSize: 13
   "linter-rubocop": {}
-  linter: {}
+  linter:
+    lintOnFly: false
   whitespace:
     ignoreWhitespaceOnCurrentLine: false
   "ruby-test":
