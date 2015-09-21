@@ -1,4 +1,4 @@
-# dcarral's dotfiles
+# dcarral's dotfiles (Linux)
 
 ## _Dotfiles?_
 
