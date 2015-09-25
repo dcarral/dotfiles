@@ -14,6 +14,14 @@ The excellent [GitHub does dotfiles](http://dotfiles.github.io/)' site starts ex
 
 Not surprisingly, in this repo you can find the _dotfiles_ containing preferences and settings for my own toolbox (mostly oriented to __web development__ tasks under a __Linux__ machine).
 
+It contains configuration files for:
+
+- Atom
+- Sublime Text 2
+- Git
+- Mercurial
+- ...
+
 ## My _dotfiles_!
 
 Besides my own needs, I keep sharing this repo's URL from time to time, specially to junior and/or new to the Linux world colleagues.
