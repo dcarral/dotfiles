@@ -10,6 +10,13 @@
     diffFilter = diff-highlight
 [push]
   default = simple
+[color "diff"]
+  commit = green
+  meta = yellow
+  frag = cyan
+  old = red
+  new = green
+  whitespace = red reverse
 [color "diff-highlight"]
   oldNormal = red bold
   oldHighlight = red bold 52
