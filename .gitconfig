@@ -6,6 +6,8 @@
 [core]
   editor = atom --wait
   pager = diff-highlight | less
+  [interactive]
+    diffFilter = diff-highlight
 [push]
   default = simple
 [color "diff-highlight"]
