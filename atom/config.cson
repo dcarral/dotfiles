@@ -1,30 +1,4 @@
 "*":
-  welcome:
-    showOnStartup: false
-  core:
-    disabledPackages: [
-      "metrics"
-      "spell-check"
-      "linter-eslint"
-      "exception-reporting"
-    ]
-    projectHome: "/home/dani/projects"
-  editor:
-    invisibles:
-      eol: false
-    showInvisibles: true
-    showIndentGuide: true
-    preferredLineLength: 100
-    fontSize: 13
-  "linter-rubocop": {}
-  linter:
-    lintOnFly: false
-  whitespace:
-    ignoreWhitespaceOnCurrentLine: false
-  "ruby-test":
-    rspecFileCommand: "bundle exec rspec -tty {relative_path}"
-    rspecSingleCommand: "bundle exec rspec -tty {relative_path}:{line_number}"
-    rspecAllCommand: "bundle exec rspec -tty spec"
   "":
     coffee:
       source:
@@ -34,3 +8,45 @@
       source:
         editor:
           preferredLineLength: 100
+  "atom-beautify":
+    general:
+      analytics: false
+  core:
+    disabledPackages: [
+      "metrics"
+      "spell-check"
+      "exception-reporting"
+    ]
+    projectHome: "/home/dani/projects"
+  editor:
+    invisibles:
+      eol: false
+    preferredLineLength: 100
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+  "language-babel": {}
+  linter:
+    lintOnFly: false
+  "linter-rubocop":
+    command: "bundle exec rubocop"
+  react: {}
+  "ruby-test":
+    specFramework: "rspec"
+  "todo-show": {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
+".babel.regexp.source":
+  editor:
+    preferredLineLength: 100
+".gfm.source":
+  editor:
+    preferredLineLength: 100
+".js.jsx.source":
+  editor:
+    preferredLineLength: 100
